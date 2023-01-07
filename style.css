@@ -1,0 +1,389 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: #e5e5e5;
+
+}
+
+.cabecalho {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+
+    color: #464646;
+}
+
+.nome-logo {
+    text-decoration: none;
+    font-weight: bolder;
+    display: flex;
+    justify-content: left;
+}
+
+.nome-logo:hover,
+:visited,
+:active {
+    color: #464646;
+}
+
+.itens-cabecalho {
+    display: flex;
+    list-style: none;
+}
+
+.item-cabecalho {
+    padding: 0.6rem;
+    text-decoration: none;
+}
+
+.titulo {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 2rem;
+}
+
+.titulo-texto-principal {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 65vw;
+    font-size: 2.5em;
+    color: #464646;
+    padding: 1rem 0 0 0;
+
+}
+
+.titulo-texto-secundario {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 65vw;
+    font-size: 1.5em;
+    padding: 1rem 0 0 0;
+    color: #464646;
+}
+
+.lista-contato {
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.lista-contatos {
+    list-style: none;
+    padding: 1rem 2rem 2rem 0;
+}
+
+.lista-contatos a {
+    text-decoration: none;
+}
+
+.titulo-img {
+    display: flex;
+    width: 50%;
+    border-radius: 50rem;
+}
+
+.sobre-mim {
+    padding: 0 0 0 2rem;
+    background-color: #EAF2FD;
+    color: #464646;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.sobre-mim-titulo {
+    font-size: 1.8rem;
+    padding: 2rem 0 2rem 0;
+
+}
+
+.sobre-mim-texto {
+    color: #444;
+    width: 60vw;
+    padding: 0 0 3rem 0;
+}
+
+.skills-hobbies {
+    background-color: #ddd;
+    padding: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.texto-skills-hobbies {
+    text-align: center;
+    padding: 0 0 2rem 0;
+    color: #444;
+
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2rem 2rem 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #444;
+
+}
+
+.card {
+    background: #fff;
+    height: 6rem;
+    width: 6rem;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0 0 .5rem .5rem;
+
+    border-radius: 1rem;
+}
+
+.card img {
+    height: 2rem;
+    padding: 0 0 1.6rem 0;
+}
+
+.formacao-academica {
+    background-color: #bbccff;
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo-formacao-academica {
+    text-align: center;
+    padding: 2rem 0 0 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #464646;
+}
+
+.cards-formacao-academica {
+    display: flex;
+    padding: 2rem;
+    justify-content: space-around;
+
+}
+
+.card-formacao-academica {
+    border-radius: 3rem;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 15rem;
+    height: 15rem;
+    background-color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #464646;
+    font-size: .8rem;
+}
+
+.card-formacao-academica img {
+    width: 10rem;
+    display: flex;
+
+}
+
+.label-formacoes-academicas {
+    text-align: center;
+}
+
+.experiencia-profissional{
+    padding: 2rem;
+}
+
+.titulo-experiencia-profissional{
+    text-align: center;
+    padding: 0 0 2rem 0;
+    color: #464646;
+}
+
+.impar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 0 2rem 0;
+
+    color: #464646;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.conteudo-impar p{
+    padding: 0 0 1rem 0;
+
+}
+
+.conteudo-impar ul li{
+    list-style: none;
+}
+
+.impar img{
+    height: 17rem;
+    padding-right: 2rem;
+}
+
+.botoes-experiencia-profissional{
+    display: flex;
+    justify-content: space-around;
+}
+
+.botao-repositorio{
+    border: 1px solid #48b;
+    color: #48b;
+    padding: .6rem;
+    text-decoration: none;
+}
+
+.botao-demo{
+    background-color: #48b;
+    padding: .6rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+
+.par{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-direction: row-reverse;
+    color: #464646;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    margin: 0 0 .4rem 0;
+}
+
+.conteudo-par p{
+    padding: 0 0 1rem 0;
+}
+
+.conteudo-par ul li{
+    list-style: none;
+}
+
+.par img{
+    height: 17rem;
+    padding-left: 2rem;
+}
+
+.botoes-experiencia-profissional{
+    display: flex;
+    justify-content: space-around;
+}
+
+.botao-repositorio{
+    border: 1px solid #48b;
+    color: #48b;
+    padding: .6rem;
+    text-decoration: none;
+}
+
+.botao-demo{
+    background-color: #48b;
+    padding: .6rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+.pre-footer {
+    display: flex;
+    justify-content: space-around;
+
+    background-color: #EAF2FD;
+    padding: 2rem;
+}
+
+.pre-footer ul li a{
+    text-decoration: none;
+    color: #464646;
+}
+
+.pre-footer ul li {
+    list-style: none;
+    padding: 5px;
+
+}
+
+.pre-footer form {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.pre-footer h3 {
+    padding: 0 0 5px 0;
+}
+
+.pre-footer input[type=text] {
+    border-radius: 5px;
+    border: none;
+    margin: 5px;
+    width: 500px;
+    height: 40px;
+    padding: 10px;
+}
+
+.pre-footer textarea {
+    border-radius: 5px;
+    border: none;
+    margin: 5px;
+    padding: 10px;
+    height: 100px;
+}
+
+.pre-footer input[type=submit] {
+    background-color: #2A7AE4;
+    border-radius: 5px;
+    color: #EAF2FD;
+    border: none;
+    height: 40px;
+    margin: 5px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #464646;
+    padding: 2rem;
+
+    color: #F5F5F5;
+}
+
+.top-footer a{
+    color: #fff;
+    text-decoration: none;
+    padding: 1rem;
+}
+
+footer div {
+    padding: 0.5rem;
+    position: relative;
+}
+
+@media (max-width: 975px) {
+
+    .pre-footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pre-footer input[type=text]{
+        width: 85vw;
+    }
+
+    .pre-footer textarea{
+        width: 85vw;
+    }
+
+    .pre-footer input[type=submit]{
+        width: 50vw;
+    }
+}
