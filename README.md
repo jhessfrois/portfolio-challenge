@@ -6,7 +6,7 @@
 
 Desafio construído na Alura em parceria com a Oracle Next Education.
 
-[🔗 Clique aqui para acessar](https://jhessfrois.github.io/challenge-portfolio/)
+[🔗 Clique aqui para acessar](https://jhessfrois.github.io/portfolio-challenge/)
 
 
 ## 🛠 Tecnologias
